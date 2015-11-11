@@ -20,7 +20,6 @@ public class HelloController {
         model.addObject("message", "This is welcome page!");
         model.setViewName("hello");
         return model;
-
     }
 
     @RequestMapping(value = "/admin**", method = RequestMethod.GET)
